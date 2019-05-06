@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b8eff7</color>
+    <color name="colorPrimaryDark">#ff1b01</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorPrimary1">#ffc107</color>
+    <color name="colorPrimaryDark1">#ffa000</color>
+    <color name="lightgrey">#eeebeb</color>
+    <color name="deepPurple">#7c4DFF</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="msgfrgbtnc1">#000000</color>
+    <color name="msgfrgbtnc2">#0022ff</color>
+    <color name="msgfrgbtnc3">#ff4081</color>
+    <color name="msgfrgbtnc4">#727272</color>
+    <color name="expcadpopupbd">#2f333f</color>
+    <color name="expcadpopupbl">#49acd5</color>
+    <color name="expcadpopupg">#45bc62</color>
+    <color name="expcadpopupo">#eaad43</color>
+    <color name="expcadpopup1">#ffdd00</color>
+    <color name="expcadpopup2">#bd3aff</color>
+    <color name="toolbarcolor">#6cbfba</color>
+    <color name="white">#ffffff</color>
+    <color name="trans">#00ffffff</color>
+    <color name="black">#000000</color>
+
+</resources>

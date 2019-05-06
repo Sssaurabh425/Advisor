@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".SubUserReg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Register"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="pancard number"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectcurve">
+
+        <EditText
+            android:id="@+id/regpan"
+            android:layout_width="272dp"
+            android:layout_height="50dp"
+
+
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Enter your Pancard no."
+
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="phone number"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectcurve"
+        >
+
+        <EditText
+            android:id="@+id/regphone"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:ems="10"
+            android:hint="Enter phone number"
+            android:inputType="number"
+            android:textSize="22sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="username"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectcurve">
+
+        <EditText
+            android:id="@+id/regusn"
+            android:layout_width="287dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:ems="10"
+            android:hint="Enter Your UserName"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="UID"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectcurve"
+        >
+
+        <EditText
+            android:id="@+id/reguid"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:ems="10"
+            android:hint="Enter Admin UID"
+            android:inputType="number"
+            android:textSize="22sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="email id"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectcurve">
+
+        <EditText
+            android:id="@+id/regemail"
+            android:layout_width="276dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:ems="10"
+            android:hint="Enter your Email Id"
+            android:inputType="textEmailAddress"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="password"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectcurve">
+
+        <EditText
+            android:id="@+id/regpsw"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/regbtn"
+            android:layout_width="176dp"
+            android:layout_height="52dp"
+
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:background="@drawable/rect"
+            android:text="Register" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/logreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="LOGIN" /></RelativeLayout>
+</LinearLayout>

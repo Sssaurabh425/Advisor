@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Restro.BePartnerStepOneFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Get Investment To Fund Your Restaurant Business"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fund"
+                android:textSize="16dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Self-funding"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you have enough money in the bank, then congrats, you have crossed the first hurdle of opening a restaurant. It is also a good idea to open a restaurant in partnerships, as it reduces the risks of investment."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Loan"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can take a loan to fulfill your restaurant dream. However, securing a loan from a bank may include hassles as they look for collateral or someone who can underwrite the loan."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. VC/Angel funding"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Getting investors on board can be difficult, especially if yours is a first-time venture. Investors usually look for your restaurant venture’s growth potential, quality, and the scalability of your business model. The performance of your first few outlets is taken into consideration before one agrees to invest in your business."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:id="@+id/backBT"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:text="back"
+            android:textColor="@color/lightgrey" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:id="@+id/nextBT"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:text="next.lowercase"
+            android:textColor="@color/lightgrey" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

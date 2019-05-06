@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Restro.BePartnerStepOneFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Decide the concept of your restaurant"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quick Service Restaurants" />
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cafes" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Fine Dining Restaurants" />
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Restro-bars and lounges" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Casual Dining Restaurants" />
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bakeries" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Food Trucks and Food Carts" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Does your concept is unique in your area?"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="No" />
+
+
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Did location chosen for restaurant is having more rush?"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't Know" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location not yet decided"
+                    android:layout_gravity="end"/>
+
+
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Budget for your Restaurant"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter your budget"
+                android:inputType="numberSigned"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Things To Consider While Deciding Your Restaurant Concept"
+    android:textSize="16dp"
+    android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Do Your Market Research"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First, you must do a proper industrial market research about what works the best in your area. If your restaurant is based in a small town, it is preferable you don’t select a restaurant concept or theme which already exists in the vicinity.While high competition is a good thing in a high-end food street, it is not the same in a small town. Try and comprehend what type of cuisine works the best in the market. If you see there are too many Chinese and Continental restaurants, in an area, try and find out which one has a better footfall. In doing so, you will get a chance to peek into the minds and tastes of the customers you are planning to target."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Decide As Per Your Budget"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="if you have a budget of a food truck or a takeaway and you dream of having a fine dine or casual dining, it will be your biggest blunder. Once you choose the restaurant format, you also need to decide the menu and the style of your concept.Does your restaurant menu require expensive ingredients like seafood or steak? If yes, then reconsider your decision, taking into consideration whether you have the budget enough to buy and serve the menu item.
+                If you are considering to take a loan to open your new restaurant, you will without a doubt burden yourself with a huge payment each month for the maintenance of your restaurant even before you know how profitable it will ultimately be. Moreover, restaurant owners mostly allocate all their budget on the setting up of the restaurant."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Think About the Cuisine You Want To Offer"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What have you decided to offer to your customers? Will it be classic southern cooking with a modern twist, traditional sushi, or low-key Mexican comfort food? Whatever it might be, you must understand that all will not work together in the same restaurant. Choose what you want to go with, and keep it simple. While selecting your cuisine, remember the insights you had garnered from the market research. Think about a concept so simple that people can describe your restaurant in one sentence. This will help in creating a USP of your restaurant and also aid marketing via word of mouth."
+                 app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. How Will You Price Your Dishes?"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a significant deciding factor in choosing the right restaurant concept for your restaurant. If you want to charge fine dine price in a casual dining restaurant will probably not be a very reasonable idea. On the other hand, you may not be able to support the costs for gourmet ingredients if you want to keep entrees under INR 200."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Consider Your Targeted Clientele"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Know who you want to target. For example, if you are planning to target the college or the student crowd, they would prefer a quirky establishment, with funky interiors and prices which is more comfortable on the pockets. On the contrary, if you are planning to target families or upper-class crowd, then you must go for a fine dining establishment, with prices relatively higher which the targeted crowd won’t mind to pitch in. According to the clientele you are planning to attract you can mold your restaurant’s concept to suit their type."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Choose a Concept that Goes with Your Location"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your location will have a massive effect on choosing the most effective restaurant concept. If you decide to open a restaurant in a hipster and a student-centric neighborhood, you may open a more quirky and youth-oriented establishment, whereas if you are in a corporate office area where people dine out to have business meetings, you can go for a posh establishment with basic colors and classy interiors. "
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Consider the Size of Your Restaurant"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If it is a small space with only one or two table area, a more casual takeaway concept might be the best option. If it is a large space with two bars and 75 or more covers, you can go for a more crowd-pleasing concept with trend-proof dining options where people can bring large groups. You must consider the size of the kitchen area as well."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Look for A Unique Concept"/>
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here’s a big question, and one that requires that you take a step back and answer honestly. Is your restaurant concept genuinely unique, taking into consideration your competitors in the market? Here market research will come in handy yet again. If you are planning to have a cafe in a student locality with too many other cafes you’ve got to do something that will help you to stand out amongst the others in the vicinity."
+                app:trimExpandedText="Show more"
+                app:trimCollapsedText="Show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="100"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/backBT"
+            style="@style/AppTheme.PopupOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:text="back"
+            android:textColor="@color/lightgrey" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:id="@+id/nextBT"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:text="next.lowercase"
+            android:textColor="@color/lightgrey" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

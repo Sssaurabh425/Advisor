@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akashbhaukadetaill">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="horizontal"
+                android:background="#fcfcfc">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingTop="7dp"
+                        android:paddingLeft="13dp"
+
+                        android:text="Shubham Gawali"
+                        android:layout_marginTop="70dp"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#919191"></LinearLayout>
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Network: 110000
+Promotiond done: 109
+Subscriber: 1M" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Girishimage"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="hello_world"
+                        android:layout_marginTop="24dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Girishcircle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/GirishimageView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="40dp"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/bakra6" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#919191">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="As a Certified Financial Planner, my aim is to make strong, long-term relationships with people by listening and understanding their situations, then assisting to put them on a path to living their life the way they always pictured it. Your financial success hinges on surrounding yourself with a 'board of advice' consisting of professionals such as Accountants, Finance Brokers and Solicitors, with a Financial Planner the cornerstone to a successful future.
+
+I particularly enjoy working with enthusiastic professionals who may have been recently promoted or changed roles, small business owners, people who are currently or considering moving or building a home, and people who are currently considering retiring or winding back work as they build towards retirement.
+
+I am available to conduct group education sessions on a variety of topics, at our office or your workplace, including 'Common Sense Investing' and '5 Steps to Financial Freedom'.
+
+I am the Managing Partner of Income Solutions Richmond, where I work from Income Solutions purpose build 'Wealth Creation Centre' at 19 Rooney St, Richmond (short walk from Burnley Station).  "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/gawali_apply"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="bottom|center"
+        android:background="#3d7ee5"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="486dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Apply"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

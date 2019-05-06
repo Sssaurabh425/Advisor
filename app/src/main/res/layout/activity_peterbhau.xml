@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".peterbhau">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="horizontal"
+                android:background="#fcfcfc">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingTop="7dp"
+                        android:paddingLeft="13dp"
+
+                        android:text="Shubham Gawali"
+                        android:layout_marginTop="70dp"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#919191"></LinearLayout>
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Network: 110000
+Promotiond done: 109
+Subscriber: 1M" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Girishimage"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="hello_world"
+                        android:layout_marginTop="24dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Girishcircle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/GirishimageView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="40dp"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/bakra2" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#919191">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dave Vaughan B.Comm, DipFP, JP
+
+I began working as an adviser 4 years ago after a long career in the Australian Special Forces in the 2nd Commando Regiment. I had multiple overseas tours including 2 to Afghanistan.
+
+I commenced study acheiving a Diploma in Financial Planning, Bachelor degree in Commerce (Finance) and then attended the AMP Horizons Academy to earn my financial adviser status.
+
+I worked at a practice in Sydney's south for 2 years in which time I was awarded the AMP 2015 NSW 'New adviser of the year'. I also completed a Self managed super fund accreditation and Mortgage broking certificate. I then embarked on a Masters in Financial Planning through UNSW which I am currently 50% of the way through.
+
+I have recently started a new business with a long time friend and fellow soldier during my time in the Special Forces Commandos called Loudon and Vaughan Private Wealth where I am continuing on my journey as an adviser with work and education.
+
+I love being an adviser as I value my personal relationships with my clients and a job where you make other peoples lives better is something you wake up to with enthusiasm. I had that previously with my military career, and have found a similar drive and job satisfaction with this career.
+
+"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/gawali_apply"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="bottom|center"
+        android:background="#3d7ee5"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="486dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Apply"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

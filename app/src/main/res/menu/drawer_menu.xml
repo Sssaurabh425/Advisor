@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/addexpenses1"
+            android:icon="@drawable/plus"
+            android:title="Add Expenses"/>
+        <item android:id="@+id/showexpenses"
+            android:icon="@drawable/eye"
+            android:title="Show Expenses"/>
+        <item android:id="@+id/addearning"
+            android:icon="@drawable/note"
+            android:title="Add Earning"/>
+        <item android:id="@+id/showearning"
+            android:icon="@drawable/eye"
+            android:title="Show Earning"/>
+        <item android:id="@+id/addsubuser"
+            android:icon="@drawable/subuser"
+            android:title="Sub Users"/>
+        <item android:id="@+id/billpayment"
+            android:icon="@drawable/invoice"
+            android:title="Bill Payments"/>
+        <item android:id="@+id/notification"
+            android:icon="@drawable/notification"
+            android:title="Notification"/>
+        <item android:id="@+id/sipcalculator"
+            android:icon="@drawable/subuser"
+            android:title="SIP Calculator"/>
+        <item android:id="@+id/Savebill"
+            android:icon="@drawable/invoice"
+            android:title="Save Bill"/>
+        <item android:id="@+id/Tasktodo"
+            android:icon="@drawable/notification"
+            android:title="Task Todo"/>
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item android:id="@+id/account"
+                android:icon="@drawable/bank123"
+                android:title="Accounts"/>
+            <item android:id="@+id/hireadvisor"
+                android:icon="@drawable/hireadcisor"
+                android:title="Hire Advisor"/>
+            <item android:id="@+id/budget"
+                android:icon="@drawable/fund"
+                android:title="Budget"/>
+            <item android:id="@+id/saving"
+                android:icon="@drawable/saving1"
+                android:title="Savings"
+                />
+            <item android:id="@+id/investment"
+                android:icon="@drawable/investment"
+                android:title="Investments"/>
+            <item android:id="@+id/shop"
+                android:icon="@drawable/investment"
+                android:title="Hyper Local Shopping"/>
+            <item android:id="@+id/complaint"
+                android:icon="@drawable/complaint"
+                android:title="Register Complaints"/>
+            <item android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+
+        </menu>
+    </item>
+
+</menu>

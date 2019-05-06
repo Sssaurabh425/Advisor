@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlower"
+    android:orientation="vertical"
+    tools:context=".billgeneration">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="397dp"
+        android:layout_height="109dp"
+
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="125dp"
+
+                android:padding="20dp"
+                app:srcCompat="@drawable/gas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="20dp"
+                android:text="Gas Bill"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="397dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="125dp"
+
+                android:padding="20dp"
+                app:srcCompat="@drawable/broadbnad" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="20dp"
+                android:text="BroadBand Bill"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="397dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="125dp"
+
+                android:padding="20dp"
+                app:srcCompat="@drawable/electric" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="20dp"
+                android:text="Electric Bill"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="397dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="125dp"
+
+                android:padding="20dp"
+                app:srcCompat="@drawable/waterbill" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="20dp"
+                android:text="Water Bill"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="397dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="125dp"
+
+                android:padding="20dp"
+                app:srcCompat="@drawable/tv" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginTop="20dp"
+                android:text="TV/DTH Bill"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

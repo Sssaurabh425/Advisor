@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/showback"
+    android:orientation="vertical"
+    tools:context=".ExpensesData">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/showback"
+        android:gravity="center"
+        android:text="Your Daily Expenses"
+        android:textColor="@color/expcadpopupbd"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/listdate"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/showback"
+            android:text="Date"
+            android:textColor="@color/expcadpopupbd"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+
+            android:id="@+id/listtime"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/showback"
+            android:text="Time"
+            android:textColor="@color/expcadpopupbd"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+
+            android:id="@+id/listamt"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/showback"
+            android:text="Amount"
+            android:textColor="@color/expcadpopupbd"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+
+            android:id="@+id/listmer"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/showback"
+            android:text="Category"
+            android:textColor="@color/expcadpopupbd"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+
+            android:id="@+id/listcat"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/showback"
+            android:text="Description"
+            android:textColor="@color/expcadpopupbd"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view1"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/showback" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="8dp"></com.github.mikephil.charting.charts.BarChart>
+
+
+
+
+
+</LinearLayout>
