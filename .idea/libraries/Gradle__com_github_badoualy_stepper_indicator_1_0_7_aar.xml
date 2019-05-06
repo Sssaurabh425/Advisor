@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.badoualy:stepper-indicator:1.0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2081fd3876faebc6f3872b36267d5d6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2081fd3876faebc6f3872b36267d5d6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.badoualy/stepper-indicator/1.0.7/e94226f5a3c37a01f773659c9c98578f4c097e22/stepper-indicator-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
