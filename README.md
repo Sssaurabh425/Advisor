@@ -3,3 +3,4 @@ Personal Financial Advisor is Android App Project in which I use Firebase as a D
 For More Detail Open BucksBunny_Report.pdf
 Login is Necessary
 Add expenses data to view piechart and Graph
+Unzip BucksBunny.zip to download App
